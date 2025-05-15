@@ -5,30 +5,35 @@ import org.junit.jupiter.api.Test;
 
 public class C01_TestNotasyonu {
 
+  /*
+        Bir class'in run edilebilir olmasi icin
+        bugune kadar MUTLAKA main method olmali demistik
 
-   @Test
-   public void test01(){
-       System.out.println("Test1 çqlıştı");
-   }
+        Gercekten de main method olmadan
+        method'larin yaninda run tusu cikmiyor
 
-  @Test @Disabled
-    public void test02(){
-        System.out.println("Test2 çqlıştı");
+        JUnit Framework'u ile gelen en buyuk promosyon
+        @Test notasyonudur
+
+        @Test notasyonu sayesinde
+        her bir method, bagimsiz olarak calistirilabilir hale gelir
+
+     */
+
+    @Test
+    public void test04() {
+        System.out.println("Test4 calisti");
     }
 
-
-
-  @Test
-    public void test03(){
-        System.out.println("Test3 çqlıştı");
+    @Test // @Disabled
+    public void test02() {
+        System.out.println("Test2 calisti");
     }
 
-
-
-
-
-
-
+    @Test
+    public void test03() {
+        System.out.println("Test3 calisti");
+    }
 
 
 }
