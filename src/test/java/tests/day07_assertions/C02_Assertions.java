@@ -90,5 +90,5 @@ public class C02_Assertions {
             // sonuc true ise => PASSED
             Assertions.assertTrue(actualUrunIsmi.contains(expectedUrunIsimIcerigi),"Urun ismi aranan kelimeyi icermiyor");
 
-
+           //Assortion iddia demek .
         }}

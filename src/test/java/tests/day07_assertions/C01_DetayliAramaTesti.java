@@ -108,7 +108,7 @@ public class C01_DetayliAramaTesti {
         } else {
             System.out.println("Ilk urun isim testi FAILED");
             throw new AssertionError("Ilk urun ismi aranan kelimeyi icermiyor");
-        }
+        }//exception fırlattık burada.
 
     }
 }
