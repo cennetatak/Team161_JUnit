@@ -23,7 +23,7 @@ public class C02_FileExists {
         // bilgisayar masaustunde selenium.txt
         // dosyasinin varoldugunu test edin
 
-        dosyaYolu = "/Users/ahmetbulutluoz/Desktop/selenium.txt";
+        dosyaYolu = "src/test/java/tests/day13_fileTestleri/notlar.txt";
 
         Assertions.assertTrue(Files.exists(Paths.get(dosyaYolu)));
 
