@@ -42,7 +42,7 @@ public class C01_Cookies extends TestBase_Each {
          */
 
         // cookie'leri daha duzenli sekilde yazdirmak icin loop kullanalim
-        // Set index desteklemedigi icin for-each loop kullanmaliyiz
+        // Set index desteklemedigi icin for-each loop kullanmaliyiz*/
 
         int siraNo =1;
 
@@ -134,6 +134,7 @@ public class C01_Cookies extends TestBase_Each {
         cookieSet = driver.manage().getCookies();
 
         Assertions.assertTrue(cookieSet.isEmpty());
+
 
     }
 }
