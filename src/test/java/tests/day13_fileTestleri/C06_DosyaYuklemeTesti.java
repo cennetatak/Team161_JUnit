@@ -8,8 +8,6 @@ import utullities.TestBase_Each;
 
 public class C06_DosyaYuklemeTesti  extends TestBase_Each {
 
-
-
     @Test
     public void test01(){
         //https://the-internet.herokuapp.com/upload adresine gidelim
